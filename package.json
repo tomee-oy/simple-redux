@@ -1,0 +1,36 @@
+{
+    "name": "simple-redux",
+    "version": "1.0.0",
+    "description": "封装redux、redux-saga流程",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rimraf lib && webpack --config config/webpack.prod.js --mode production",
+        "dev": ""
+    },
+    "keywords": [
+        "redux",
+        "redux-saga"
+    ],
+    "author": "fonture",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "react": "^16.7.0",
+        "react-redux": "^6.0.0",
+        "react-router-redux": "^4.0.8",
+        "redux": "^4.0.1",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.3.0",
+        "rimraf": "^2.6.2",
+        "webpack": "^4.28.1",
+        "webpack-cli": "^3.1.2"
+    }
+}
