@@ -1,4 +1,5 @@
-import { storage, inject } from './reduxHelper'
+export { storage, inject } from './reduxHelper'
 import initialStore from './store'
+export { Provider } from 'react-redux'
 
-export default { initialStore, storage, inject }
+export {initialStore} 
