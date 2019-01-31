@@ -13,6 +13,14 @@
   npm install redux-simple-helper --save-dev
 ```
 
+示例运行：
+```javascript
+  npm install
+  npm run demo
+```
+
+在浏览器打开：`http://localhost:5000`进行访问
+
 #### 二、使用方式
 ##### 2.1 初始化
 
