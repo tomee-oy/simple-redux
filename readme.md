@@ -1,4 +1,4 @@
-## simple-redux
+## redux-simple-helper
 
 ### ✨一行代码解决从dispatch到saga再到reducer，解放你的双手！
 
@@ -10,14 +10,14 @@
 
 #### 一、安装
 ```javascript
-  npm install simple-redux --save-dev
+  npm install redux-simple-helper --save-dev
 ```
 
 #### 二、使用方式
 ##### 2.1 初始化
 
 ```javascript
-  import { initialStore, Provider } from 'simple-redux'
+  import { initialStore, Provider } from 'redux-simple-helper'
   const store = initialStore()
 ```
 如果想要在`store`创建的时候初始化进入一些值，可以像这样操作：
@@ -48,14 +48,14 @@
 ##### 2.2 存储数据
 
 ```javascript
-  import { storage } from 'simple-redux'
+  import { storage } from 'redux-simple-helper'
   storage('isDemo', true)
 ```
 
 ##### 2.3 取数据
 
 ```javascript
-  import { inject } from 'simple-redux'
+  import { inject } from 'redux-simple-helper'
 
   @inject('isDemo')
   export default class Child extends React.Component {
@@ -102,7 +102,7 @@
 
 在组件中发送`action`：
 ```javascript
-  import { inject } from '../packages'
+  import { inject } from 'redux-simple-helper'
 
   @inject()
   export default class Home extends React.Component {
@@ -127,7 +127,7 @@
 在`Child`组件中取值：
 
 ```javascript
-  import { inject } from '../packages'
+  import { inject } from 'redux-simple-helper'
 
   @inject('total')
   export default class Child extends React.Component {

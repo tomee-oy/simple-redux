@@ -1,5 +1,5 @@
 {
-    "name": "simple-redux",
+    "name": "redux-simple-helper",
     "version": "1.0.0",
     "description": "封装redux、redux-saga流程",
     "main": "lib/index.js",
